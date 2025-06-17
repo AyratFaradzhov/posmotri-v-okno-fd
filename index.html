@@ -19,7 +19,7 @@
         <form class="search-form">
           <fieldset class="search-form__fieldset">
             <h2 class="search-form__fieldset-title">Город</h2>
-            <label class="search-form__label">
+            <label tabindex="0" class="search-form__label">
               <span class="search-form__label-text visually-hidden">Город</span>
               <input
                 type="text"
@@ -32,7 +32,7 @@
           <fieldset class="search-form__fieldset">
             <h2 class="search-form__fieldset-title">Время суток</h2>
             <div class="search-form__checkbox-list">
-              <label class="search-form__label">
+              <label tabindex="0" class="search-form__label">
                 <input
                   type="checkbox"
                   name="time"
@@ -42,17 +42,18 @@
                 <span class="search-form__pseudo-checkbox"></span>
                 <span class="search-form__label-text">Утро</span>
               </label>
-              <label class="search-form__label">
+              <label tabindex="0" class="search-form__label">
                 <input
                   type="checkbox"
                   name="time"
                   value="afternoon"
                   class="search-form__checkbox visually-hidden"
+                  checked
                 />
                 <span class="search-form__pseudo-checkbox"></span>
                 <span class="search-form__label-text">День</span>
               </label>
-              <label class="search-form__label">
+              <label tabindex="0" class="search-form__label">
                 <input
                   type="checkbox"
                   name="time"
@@ -64,14 +65,19 @@
               </label>
             </div>
           </fieldset>
-          <button type="submit" class="button search-form__submit-button">
+          <button
+            tabindex="0"
+            type="submit"
+            class="button search-form__submit-button"
+          >
             Найти
           </button>
         </form>
       </section>
       <section class="content__details">
         <h1 class="title">
-          <span class="content__accent">По-</span><br />смотри<br />в окно
+          <span alt="Логотип Посмотри в окно" class="content__accent">По-</span
+          ><br />смотри<br />в окно
         </h1>
         <div class="content__list-container">
           <ul class="content__list">
@@ -96,7 +102,7 @@
 
     <template class="cards-list-item-template">
       <li class="content__list-item">
-        <a href="#0" class="content__card-link">
+        <a tabindex="0" href="#0" class="content__card-link">
           <article class="content__video-card">
             <div class="content__video-card-description-container">
               <h2 class="content__video-card-title"></h2>
@@ -108,7 +114,7 @@
       </li>
     </template>
     <template class="more-button-template">
-      <button class="button more-button">Показать еще</button>
+      <button tabindex="0" class="button more-button">Показать еще</button>
     </template>
 
     <template class="error-template">
