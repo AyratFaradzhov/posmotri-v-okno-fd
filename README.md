@@ -31,7 +31,8 @@
 
 ## 🔗 Ссылка на репозиторий
 
-[https://github.com/AyratFaradzhov/posmotri-v-okno-fd](https://github.com/AyratFaradzhov/posmotri-v-okno-fd)
+[[https://github.com/AyratFaradzhov/posmotri-v-okno-fd](https://github.com/AyratFaradzhov/posmotri-v-okno-fd)](https://github.com/AyratFaradzhov/posmotri-v-okno-fd
+)
 
 ## 📌 Особенности
 
