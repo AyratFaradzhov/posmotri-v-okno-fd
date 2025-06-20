@@ -17,7 +17,7 @@ html {
   font-size: 18px;
   background-color: #1b1919;
   inline-size: 1200px;
-  margin: 32px auto;
+  margin: auto;
   block-size: 100%;
 }
 
@@ -64,6 +64,7 @@ ol {
   grid-template-columns: 1fr 399px;
   grid-template-areas: "result content__details";
   margin: auto;
+  padding: 133px 0px;
 }
 
 .result {
@@ -92,16 +93,19 @@ ol {
   min-width: 399px;
   block-size: 298px;
   position: relative;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  overflow: auto;
 }
 
 .content__video-card-title {
+  padding-bottom: 2px;
+  display: block;
+  max-width: 100%;
   color: white;
   font-family: Oswald, sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 100%;
+  white-space: nowrap;
   text-align: left;
   text-transform: uppercase;
   text-overflow: ellipsis;
@@ -119,6 +123,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  overflow: auto;
 }
 
 .content__card-link_current {
